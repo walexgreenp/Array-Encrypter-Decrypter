@@ -1,1 +1,2 @@
 # cs64_lab05a
+I believe what will happen is that there will be information that will be passed into krabby, which will edit the contents of it. I think that carray and marray are going to be part of this, since along with krabby these all have 10 elements, and are of type .word. These .word adresses are all passed into their own unique registers, $a0, $a2, and $a3. $a1 is loaded with the value 10, which I believe still has to do with the fact that all of these .word have 10 values.
