@@ -1,5 +1,5 @@
-secret_formula_template:
-	spim -f secret_formula_template.asm
+secret_formula:
+	spim -f secret_formula.asm
 
 secret:
 	spim -f secret.asm
