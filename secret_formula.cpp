@@ -16,9 +16,13 @@ int main(){
     int a = 3, b = 11;
     int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int c_arr[10], m_arr[10];
+
+    int* u[3] = [0x03, 0x05 0x01];
+    int* t[3] = [0x07, 0x03, 0x15];
+
     //your arr (krabby in the template) should be unchanged
     for (int i = 0; i < 10; i++){
-        c_arr[i] = secret_formula_apply(a, b, arr[i]);
+        c_arr[i] = secret_formula_apply(a, b, u[i]);
     }
     for (int i = 0; i < 10; i++){
         std::cout << c_arr[i] << endl;
