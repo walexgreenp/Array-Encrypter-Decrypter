@@ -1,5 +1,5 @@
 # Array Encrypter/Decrypter
-Assembly program that encrypts and decrypts data using arithmetic. The .asm code is written by me, and it is meant to be a translation of the code in the .cpp file to MIPS assembly.
+Class project, MIPS assembly program that encrypts and decrypts data using arithmetic. The .asm code is written by me, and it is a translation of the code in the .cpp file to MIPS assembly. C++ code was provided except for the print implementations and output syntax, which was written by me.
 
 # What I learned
 * Solidified understanding of usage for basic I, J, and R type instructions.
