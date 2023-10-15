@@ -3,4 +3,3 @@ secret_formula:
 
 secret:
 	spim -f secret.asm
-# git remote set-url origin https://github.com/walexgreenp/cs64_lab05a.git
